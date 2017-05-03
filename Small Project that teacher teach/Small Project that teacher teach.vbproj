@@ -93,6 +93,12 @@
     <Compile Include="frm_git.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm_git2.Designer.vb">
+      <DependentUpon>frm_git2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_git2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_Position.Designer.vb">
       <DependentUpon>frm_Position.vb</DependentUpon>
     </Compile>
