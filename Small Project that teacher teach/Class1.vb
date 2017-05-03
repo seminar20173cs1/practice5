@@ -1,6 +1,7 @@
 ﻿Public Class Class1
     Shared Sub Showdata()
         MessageBox.Show("Hello World")
+        MessageBox.Show("Hello World1")
     End Sub
     Public Sub showA()
 
