@@ -131,7 +131,7 @@ Public Class frm_Employee
 
     Private Sub btclear_Click(sender As Object, e As EventArgs) Handles btclear.Click
         ClearTextBox()
-        txtemID.Text = SetAutoID.SetID(constr, "EmployeeID", "tb_Employee")
+        'txtemID.Text = SetAutoID.SetID(constr, "EmployeeID", "tb_Employee")
         '  CallEmployeeID()
     End Sub
 
@@ -186,7 +186,7 @@ where EmployeeID like('%" & txtSearch.Text & "%') or EmployeeName like('%" & txt
     Private Sub frm_Employee_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Showdata()
         ' CallEmployeeID()
-        txtemID.Text = SetAutoID.SetID(constr, "EmployeeID", "tb_Employee")
+        'txtemID.Text = SetAutoID.SetID(constr, "EmployeeID", "tb_Employee")
         dtp.CustomFormat = "dd/MM/yyyy"
         dtp.Format = DateTimePickerFormat.Custom
 
@@ -257,7 +257,7 @@ FROM            dbo.tb_Employee INNER JOIN
     Private Sub frm_Employee_MouseDoubleClick(sender As Object, e As MouseEventArgs) Handles Me.MouseDoubleClick
         ClearTextBox()
         'CallEmployeeID()
-        txtemID.Text = SetAutoID.SetID(constr, "EmployeeID", "tb_Employee")
+        'txtemID.Text = SetAutoID.SetID(constr, "EmployeeID", "tb_Employee")
     End Sub
 
 
