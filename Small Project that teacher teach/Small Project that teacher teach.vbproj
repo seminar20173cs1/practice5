@@ -93,6 +93,12 @@
     <Compile Include="frm_git.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm_ONline.Designer.vb">
+      <DependentUpon>frm_ONline.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ONline.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_Position.Designer.vb">
       <DependentUpon>frm_Position.vb</DependentUpon>
     </Compile>
@@ -129,6 +135,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Employee.resx">
       <DependentUpon>frm_Employee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ONline.resx">
+      <DependentUpon>frm_ONline.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Position.resx">
       <DependentUpon>frm_Position.vb</DependentUpon>
