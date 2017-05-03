@@ -27,6 +27,7 @@ Public Class frm_Employee
     '    txtemID.Text = "EP00" & (subID + 1)
     'End Sub
     Private Sub btSave_Click(sender As Object, e As EventArgs) Handles btSave.Click
+        Dim helloworld As String = "Hello World"
 
         constr = "Data Source=DESKTOP-RQOFH4P;Initial Catalog=EmployeeDB;Integrated Security=True"
 
