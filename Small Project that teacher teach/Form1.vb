@@ -4,6 +4,7 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim a As Integer
 
     End Sub
 
